@@ -19,7 +19,7 @@ Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah, "UCF101: A Dataset of 101 H
 
 - [UCF101 Dataset](https://www.crcv.ucf.edu/data/UCF101.php)
 - [Revised Annotations](http://www.thumos.info/download.html)
-- [Train/Test Splits for Action Recognition](provide-link)
+- [Train/Test Splits for Action Recognition](Data/Train_Test_list_Action_Recognition)
 - [Train/Test Splits for Action Detection](provide-link)
 - [STIP Features](http://www.thumos.info/download.html)
 
