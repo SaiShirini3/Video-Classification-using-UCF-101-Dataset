@@ -1,7 +1,7 @@
 ## Objective
 
 
----------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 ## UCF101 - Action Recognition Data Set
 
 The video classification project in this repository utilizes the UCF101 dataset, an action recognition dataset of realistic action videos collected from YouTube. The dataset consists of 101 action categories, offering diversity in actions and challenging variations in camera motion, object appearance, pose, scale, viewpoint, background clutter, and illumination conditions.
@@ -27,3 +27,21 @@ Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah, "UCF101: A Dataset of 101 H
 - [Train/Test Splits for Action Detection](Data/Train_Test_list_Action_Detection)
 
 For any inquiries related to the UCF101 dataset, please contact Khurram Soomro at khurram [at] knights.ucf.edu.
+
+
+## Methodolgy
+- extract key frames
+- use cnn to  extract features
+- use rnn to learn temporal relation and predict labels
+- transformer
+
+## Key-frame extraction methods
+-
+-
+-
+-
+
+## Results and Observation
+-
+
+
