@@ -1,3 +1,7 @@
+## Objective
+
+
+---------------------------------------------------------------
 ## UCF101 - Action Recognition Data Set
 
 The video classification project in this repository utilizes the UCF101 dataset, an action recognition dataset of realistic action videos collected from YouTube. The dataset consists of 101 action categories, offering diversity in actions and challenging variations in camera motion, object appearance, pose, scale, viewpoint, background clutter, and illumination conditions.
