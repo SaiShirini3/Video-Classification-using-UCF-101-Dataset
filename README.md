@@ -40,8 +40,12 @@ For any inquiries related to the UCF101 dataset, please contact Khurram Soomro a
 - Self-Attention: Transformer's self-attention layers captured long-range dependencies between frames without relying on sequential processing and Basic FNN: Combined the Transformer with a basic feedforward neural network (FNN) for final label prediction.
 
 ## Key-frame extraction methods
--
--
+- Uniform Sampling Method - Extract frames at a regular interval (with fixed frame step)
+  
+- Histogram Method - Compare  the histograms of consecutive frames
+                    Calculate distance between both histograms (euclidean)
+                    Select those frames as key frames if distance is more than the threshold
+
 -
 -
 
