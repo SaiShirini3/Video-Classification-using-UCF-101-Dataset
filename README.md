@@ -30,10 +30,12 @@ For any inquiries related to the UCF101 dataset, please contact Khurram Soomro a
 
 
 ## Methodolgy
-- extract key frames
-- use cnn to  extract features
-- use rnn to learn temporal relation and predict labels
-- transformer
+- Employed 3-4 distinct key frame extraction techniques to capture diverse and representative frames for comprehensive 
+    analysis.
+- Utilized a pre-trained convolutional neural network to extract rich spatial features from each key frame.
+- Captured temporal dependencies between key frames using a recurrent neural network
+- Explored a Transformer model with attention mechanisms for alternative temporal modeling.
+- Self-Attention: Transformer's self-attention layers captured long-range dependencies between frames without relying on sequential processing.Basic FNN: Combined the Transformer with a basic feedforward neural network (FNN) for final label prediction.
 
 ## Key-frame extraction methods
 -
