@@ -42,12 +42,15 @@ For any inquiries related to the UCF101 dataset, please contact Khurram Soomro a
 ## Key-frame extraction methods
 - Uniform Sampling Method - Extract frames at a regular interval (with fixed frame step)
   
-- Histogram Method - Compare  the histograms of consecutive frames
-                    Calculate distance between both histograms (euclidean)
+- Histogram Method - Compare  the histograms of consecutive frames.
+                    Calculate distance between both histograms (euclidean) then
                     Select those frames as key frames if distance is more than the threshold
 
--
--
+- Edge Detection - Check the amount of edge content of each frame and then
+                    filters them out by using a threshold and store keyframes.
+
+
+- Own Method  - It is a combination of both Uniform Sampling and histogram method
 
 ## Results and Observation
 -
