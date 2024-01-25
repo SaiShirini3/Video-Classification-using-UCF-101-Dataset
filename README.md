@@ -52,7 +52,6 @@ For any inquiries related to the UCF101 dataset, please contact Khurram Soomro a
 
 - Own Method  - It is a combination of both Uniform Sampling and histogram method
 
-## Results and Observation
--
+
 
 
